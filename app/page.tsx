@@ -24,17 +24,14 @@ export default function Home() {
       </div>
 
       <main className="home">
-        <h1 className="nome">Josielly Rayssa</h1>
+        <h1 className="nome">Josielly Rayssa Cruz Santos</h1>
 
         <p className="subtitulo">
           Estudante de Sistemas para Internet • Recife, PE
         </p>
 
         <p className="descricao">
-          Em transição para a área de tecnologia, com foco em desenvolvimento
-          web. Possuo experiência em atendimento consultivo, análise de
-          requisitos e resolução de problemas, unindo visão de negócio e
-          tecnologia para criar soluções eficientes.
+          Desenvolvedora em formação, explorando o desenvolvimento web e construindo soluções através da tecnologia.
         </p>
 
         <div className="botoes">
