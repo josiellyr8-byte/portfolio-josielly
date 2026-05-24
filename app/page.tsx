@@ -16,7 +16,7 @@ export default function Home() {
       <div className="perfil-container">
         <Image
           src="/perfil.jpg"
-          alt="Josielly Rayssa"
+          alt="Josielly Rayssa Cruz Santos"
           width={170}
           height={170}
           className="perfil-img"

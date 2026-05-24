@@ -28,6 +28,7 @@ export default function Sobre() {
 
       
       <section style={{ marginBottom: "40px", fontSize: "1.1rem", lineHeight: "1.6", color: "#374151" }}>
+        <article style={cardStyle}>
         <p>
           Estudante de Sistemas para Internet com foco em desenvolvimento web e 
           modelagem de sistemas. Possuo experiência profissional em atendimento 
@@ -47,6 +48,7 @@ export default function Sobre() {
           com desenvolvimento, suporte ou análise de sistemas, contribuindo com 
           visão analítica, aprendizado contínuo e foco em resultados.
         </p>
+        </article>
       </section>
 
       {/* Nova Seção com os Blocos de Valores e História */}
@@ -61,8 +63,7 @@ export default function Sobre() {
         
         {/* Bloco 1: Identidade */}
         <article style={cardStyle}>
-          <div style={{ fontSize: "2rem" }}>✨</div>
-          <h3 style={titleStyle}>Quem Sou Eu</h3>
+          <span className="tag">Quem Sou Eu</span>
           <p style={textStyle}>
             Sou uma pessoa movida por desafios e pela certeza de que sempre há espaço para evoluir. 
             Cristã, empática e determinada, escolhi não me acomodar na zona de conforto. Busco 
@@ -73,8 +74,7 @@ export default function Sobre() {
 
         {/* Bloco 2: Bagagem */}
         <article style={cardStyle}>
-          <div style={{ fontSize: "2rem" }}>💼</div>
-          <h3 style={titleStyle}>Minha Bagagem</h3>
+          <span className="tag">Minha Bagagem</span>
           <p style={textStyle}>
             Minha base forte foi construída no setor de <em>call center</em>, onde me auxiliei a 
             desenvolver uma comunicação assertiva, inteligência emocional e negociação. Hoje, na área 
@@ -85,8 +85,7 @@ export default function Sobre() {
 
         {/* Bloco 3: Propósito */}
         <article style={cardStyle}>
-          <div style={{ fontSize: "2rem" }}>❤️</div>
-          <h3 style={titleStyle}>Propósito & Impacto</h3>
+          <span className="tag">Propósito & Impacto</span>
           <p style={textStyle}>
             Acredito que o crescimento profissional deve caminhar junto com a solidariedade. 
             Por isso, dedico parte do meu tempo a ações voluntárias, visitando orfanatos e casas 

@@ -1,68 +1,58 @@
 export default function Profissional() {
   return (
-    <div>
-      <main style={{ padding: "40px" }}>
-        <h1>💼Experiência Profissional</h1>
+    <main className="timeline-page">
+      <h1 className="page-title">💼 Experiência Profissional</h1>
 
-        {/* Experiência 1 */}
-        <section style={{ marginTop: "30px" }}>
-          <h2>Atendimento Consultivo B2B – Comércio de Equipamentos</h2>
+      <div className="timeline">
 
-          <p>
-            Atuação com vendas técnicas e consultivas para hotéis, pousadas,
-            restaurantes e indústrias.
-          </p>
+        <div className="timeline-item">
+          <div className="timeline-dot"></div>
 
-          <h3 style={{ marginTop: "20px" }}>
-            Responsabilidades Técnicas e Estratégicas:
-          </h3>
-          <ul>
-            <li>Levantamento de requisitos junto ao cliente</li>
-            <li>Identificação de necessidades operacionais</li>
-            <li>Proposição de soluções técnicas (equipamentos e refrigeração)</li>
-            <li>Negociação e fechamento</li>
-            <li>Prospecção ativa</li>
-            <li>Gestão de carteira de clientes</li>
-          </ul>
+          <div className="timeline-content">
+            <h2>Atendimento Consultivo B2B</h2>
+            <span className="timeline-company">
+              Comércio de Equipamentos
+            </span>
 
-          <h3 style={{ marginTop: "20px" }}>
-            Competências Aplicáveis à Tecnologia:
-          </h3>
-          <ul>
-            <li>Levantamento e análise de requisitos</li>
-            <li>Comunicação clara com stakeholders</li>
-            <li>Resolução de problemas</li>
-            <li>Organização de demandas</li>
-            <li>Tomada de decisão baseada em contexto</li>
-          </ul>
-        </section>
+            <p>
+              Atuação com vendas técnicas e consultivas para hotéis,
+              pousadas, restaurantes e indústrias.
+            </p>
 
-        {/* Experiência 2 */}
-        <section style={{ marginTop: "40px" }}>
-          <h2>Atendimento Receptivo – Call Center</h2>
+            <div className="tag-container">
+              <span className="tag">Análise de Requisitos</span>
+              <span className="tag">Negociação</span>
+              <span className="tag">Comunicação</span>
+              <span className="tag">Soluções Técnicas</span>
+              <span className="tag">Gestão de Clientes</span>
+            </div>
+          </div>
+        </div>
 
-          <p>
-            Atuação com suporte ao cliente e resolução de demandas relacionadas a faturamento.
-          </p>
+        <div className="timeline-item">
+          <div className="timeline-dot"></div>
 
-          <h3 style={{ marginTop: "20px" }}>Responsabilidades:</h3>
-          <ul>
-            <li>Atendimento sob alta demanda</li>
-            <li>Registro e acompanhamento de solicitações</li>
-            <li>Mediação de conflitos</li>
-            <li>Cumprimento de métricas de qualidade</li>
-          </ul>
+          <div className="timeline-content">
+            <h2>Atendimento Receptivo</h2>
+            <span className="timeline-company">
+              Call Center
+            </span>
 
-          <h3 style={{ marginTop: "20px" }}>
-            Competências Desenvolvidas:
-          </h3>
-          <ul>
-            <li>Agilidade na resolução de problemas</li>
-            <li>Comunicação objetiva</li>
-            <li>Gestão emocional em ambiente de pressão</li>
-          </ul>
-        </section>
-      </main>
-    </div>
+            <p>
+              Suporte ao cliente e resolução de demandas relacionadas
+              a faturamento e atendimento sob alta demanda.
+            </p>
+
+            <div className="tag-container">
+              <span className="tag">Atendimento</span>
+              <span className="tag">Resolução de Problemas</span>
+              <span className="tag">Comunicação</span>
+              <span className="tag">Gestão Emocional</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
   );
 }

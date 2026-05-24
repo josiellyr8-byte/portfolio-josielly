@@ -1,34 +1,46 @@
 export default function Academico() {
   return (
-    <div>
-      <main style={{ padding: "40px" }}>
-        <h1>🎓Experiência Acadêmica🎓</h1>
+    <main className="timeline-page">
+      <h1 className="page-title">🎓 Experiência Acadêmica</h1>
 
-        <section style={{ marginTop: "30px" }}>
-          <h2>Tecnólogo em Sistemas para Internet</h2>
-          <p><strong>Status:</strong> Em andamento</p>
-          <p><strong>Término:</strong> 2027</p>
+      <div className="timeline">
+        <div className="timeline-item">
+          <div className="timeline-dot"></div>
 
-          <p>
-            Formação voltada para desenvolvimento de aplicações web,
-            modelagem de dados e arquitetura de sistemas.
-          </p>
+          <div className="timeline-content">
+            <h2>Tecnólogo em Sistemas para Internet</h2>
 
-          <h3 style={{ marginTop: "20px" }}>
-            Principais Competências Desenvolvidas:
-          </h3>
+            <span className="timeline-company">
+              Formação em andamento • Conclusão prevista para 2027
+            </span>
 
-          <ul>
-            <li>Lógica de Programação</li>
-            <li>HTML, CSS e JavaScript</li>
-            <li>Modelagem e Estruturação de Banco de Dados</li>
-            <li>Gestão de projetos</li>
-            <li>Versionamento de Código</li>
-            <li>Organização de Projetos Web</li>
-            <li>Arquitetura Básica de Sistemas</li>
-          </ul>
-        </section>
-      </main>
-    </div>
+            <p>
+              Formação voltada para desenvolvimento de aplicações web,
+              modelagem de dados, arquitetura de sistemas e construção
+              de soluções digitais.
+            </p>
+
+            <h3>Competências Desenvolvidas</h3>
+
+            <div className="tag-container">
+              <span className="tag">Lógica de Programação</span>
+              <span className="tag">HTML</span>
+              <span className="tag">CSS</span>
+              <span className="tag">JavaScript</span>
+              <span className="tag">Banco de Dados</span>
+              <span className="tag">Versionamento Git</span>
+              <span className="tag">Gestão de Projetos</span>
+              <span className="tag">Arquitetura de Sistemas</span>
+              <span className="tag">React</span>
+              <span className="tag">Next.js</span>
+              <span className="tag">APIs</span>
+              <span className="tag">GitHub</span>
+              <span className="tag">UX/UI</span>
+              <span className="tag">Desenvolvimento Web</span>
+            </div>
+          </div>
+        </div>
+        </div>
+    </main>
   );
 }
